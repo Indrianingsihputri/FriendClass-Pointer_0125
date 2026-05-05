@@ -24,4 +24,10 @@ public:
     float keliling() {
         return 2 * (s1 + s2);
     }
+
+    void output() {
+        cout << "\n=== Belah Ketupat ===" << endl;
+        cout << "Luas      : " << luas() << endl;
+        cout << "Keliling  : " << keliling() << endl;
+    }
 };
