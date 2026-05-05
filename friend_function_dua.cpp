@@ -28,4 +28,6 @@ int main()
 {
     manusia budi;
     pelajar pbudi;
+    budi.showNilaiPelajaran(pbudi);
+    return 0;
 }
