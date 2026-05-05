@@ -14,6 +14,7 @@ private:
     int nilai;
 
 public:
+
     pelajar() {nilai = 100;}
     friend void manusia::showNilaiPelajaran(pelajar &x);
 };
