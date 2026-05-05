@@ -23,3 +23,9 @@ void manusia::showNilaiPelajaran(pelajar &x)
 {
     cout << x.nilai;
 }
+
+int main()
+{
+    manusia budi;
+    pelajar pbudi;
+}
